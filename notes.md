@@ -45,7 +45,11 @@ jobs:
 4. Raise a pull request from this branch into main
 5. Observe the output. You should notice that the job fails.
 
-Now debug the test and fix the code to pass. Once satisfied, you can push the changes and the action should complete successfully. The branch can then be merged.
+Now debug the test and fix the code to pass. You can run pytest from within the api folder to run the tests locally: `python3 -m pytest`
+
+A file is located at api/example_mongodb.py which should help demonstrate how to aggregate the data.
+
+Once satisfied, you can push the changes and the action should complete successfully. The branch can then be merged.
 
 ## Managing vulnerabilities
 Dependabot is a useful tool to help manage vulnerable dependencies. It can automatically detect and raise PR's against your codebase when it finds a vulnerability it knows how to fix. To demonstrate this:
