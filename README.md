@@ -16,7 +16,7 @@ From the root of your repo, enable a python virtual environment, then use the fo
 ```
 cd api && \
 pip3 install -r requirements.txt && \
-MONGO_URI=mongodb://localhost/testcollection python -m flask run
+MONGO_URI=mongodb://localhost/testcollection python3 -m flask run
 ```
 
 ## Frontend
