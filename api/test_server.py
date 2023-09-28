@@ -26,7 +26,7 @@ def flask_client():
         ctx.pop()
 
 
-def test_something_mocked(flask_client):
+def test_aggreatation_returns_total_quantities(flask_client):
     """
     Given a populated inventory database
     When I make a request for the aggregated quantities of inventory
