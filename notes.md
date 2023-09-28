@@ -45,7 +45,7 @@ jobs:
 4. Raise a pull request from this branch into main
 5. Observe the output. You should notice that the job fails.
 
-Now debug the test and fix the code to pass. You can run pytest from within the api folder to run the tests locally: `python3 -m pytest`
+Now debug the test locally and fix the code to pass. You can run pytest from within the api folder to run the tests locally: `python3 -m pytest`. You can also view the fronted app to see how the changes manifest themselves.
 
 A file is located at api/example_mongodb.py which should help demonstrate how to aggregate the data.
 
