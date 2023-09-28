@@ -9,7 +9,7 @@ Via the magic of containerisation, starts an instance of MongoDb to serve as the
 
 `docker run --rm -p 27017:27017 mongo`​
 
-​## Api
+## Api
 
 From the root of your repo, enable a python virtual environment, then use the following commands to start the api.
 
