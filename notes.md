@@ -14,6 +14,7 @@ A basic rule which is often used is preventing direct pushes to the main branch.
 4. Under "Branch name pattern", type "main"
 5. Under "Protect matching branches", select Require a pull request before merging.
 6. Set "Require Approvals" to be 1.
+7. Set "Do not allow bypassing the above settings" to 1.
 
 
 To test this, attempt to push a change directly to main. It should be blocked.
